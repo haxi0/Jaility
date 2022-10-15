@@ -1,4 +1,4 @@
-<img src="Assets/JailityNewRounded.png" alt="Logo" width="200" height="200">
+<img src="Assets/JailityNewRounded.png" alt="Logo" width="70" height="70">
 
 # Jaility
 Simple iOS supercharger to be used with TrollStore. Can be used to disable locking after respring, supervise your Device in one click, change badge colours and make your password keys blank. Also respring your Device on any iOS version even if you are on iOS 16!
