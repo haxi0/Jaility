@@ -9,10 +9,10 @@ import SwiftUI
 
 func checkSandbox() -> Bool {
     let fileManager = FileManager.default
-    fileManager.createFile(atPath: "/var/mobile/me.soongyu.red-dot", contents: nil)
-    if fileManager.fileExists(atPath: "/var/mobile/me.soongyu.red-dot") {
+    fileManager.createFile(atPath: "/var/mobile/org.haxi0.Jaility", contents: nil)
+    if fileManager.fileExists(atPath: "/var/mobile/org.haxi0.Jaility") {
         do {
-            try fileManager.removeItem(atPath: "/var/mobile/me.soongyu.red-dot")
+            try fileManager.removeItem(atPath: "/var/mobile/org.haxi0.Jaility")
         } catch {
             print("Failed to remove sandbox check file")
         }
